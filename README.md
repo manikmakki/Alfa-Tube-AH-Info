@@ -2,7 +2,7 @@
 Dump of configs and docs for the Alfa Tube-AH
 	<img src="alfa-tube-ah-diagram.png">
 
-# Gettings Started 
+# Getting Started 
 [Docs for AHM27292U](https://docs.alfa.com.tw/Product/AHM27292U/) -- While not explicitly for the Tube-AH, this is the module installed inside the Tube-AH via PCI -> M.2 adapter.<br>
 [Factory Firmware DL from Alfa](https://drive.google.com/file/d/1KSlgDL66AJUVrZjVxHLGtyePOj-y7iDj/view?usp=share_link) -- At this time, there is no firmware on [Alfa's website](https://files.alfa.com.tw/). This link was provided by their customer support team<br>
 [Newracom (chipset manufacturer) docs](https://github.com/newracom/nrc7292_sw_pkg/blob/master/package/host/doc/UG-7292-003-S1G_Channel.pdf) -- Page 5 for channel mapping, as the firmware shows only 2.4 and 5ghz bands due to wpa_supplicant not supporting sub-1ghz bands. <br>
