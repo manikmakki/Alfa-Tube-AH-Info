@@ -1,5 +1,6 @@
 # Alfa-Tube-AH-Info
 Dump of configs and docs for the Alfa Tube-AH
+	<img src="alfa-tube-ah-diagram.png">
 
 # Gettings Started 
 [Docs for AHM27292U](https://docs.alfa.com.tw/Product/AHM27292U/), while not explicitly for the Tube-AH, this is the module installed inside the Tube-AH via PCI -> NVME adapter.<br>
