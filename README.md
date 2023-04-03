@@ -8,7 +8,7 @@ Dump of configs and docs for the Alfa Tube-AH
 <br>
 **NOTE**: The firmware above boots, but appears to be lacking the nessecary drivers and kernel modules to support the nrc7292 chipset<br>
 **NOTE**: For the firmware above, the IP is 192.168.1.254 and the webconsole is available on 8022/tcp ([Click here!](http://192.168.1.254:8022))<br>
-This is the reason I am uploading everything from a fresh device, in case it helps sombeody else.
+This is the reason I am uploading everything from a fresh device, in case it helps somebody else.
 
 # Wild Ravings From an Insane Man
 The Tube-AH is an odd device. <br>
