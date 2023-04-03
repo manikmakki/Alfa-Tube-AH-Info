@@ -8,3 +8,18 @@ Dump of configs and docs for the Alfa Tube-AH
 **NOTE**: The firmware above boots, but appears to be lacking the nessecary drivers and kernel modules to support the nrc7292 chipset<br>
 **NOTE**: For the firmware above, the IP is 192.168.1.254 and the webconsole is available on 8022/tcp ([Click here!](http://192.168.1.254:8022))<br>
 This is the reason I am uploading everything from a fresh device, in case it helps sombeody else.
+
+# Wild Ravings From an Insane Man
+The Tube-AH is an odd device. <br>
+Out of the box, it has two installs of OpenWRT running. One is exposed over 192.168.1.1, the other is 192.168.1.254. <br>
+The .1 interface has the following: <br>
+>  OpenWrt SNAPSHOT, r17031+232-e6b3e77e6e <br> 
+> root@OpenWrt:~# uname -ar <br>
+> Linux OpenWrt 5.10.54 #0 SMP Sat Jul 31 18:41:15 2021 armv7l GNU/Linux
+
+The .254 interfaces shows:<br>
+> OpenWrt 22.03-SNAPSHOT, r19522-5c7aed8b1e <br>
+> root@OpenWrt:~# uname -ar <br>
+> Linux OpenWrt 5.10.127 #0 Mon Jul 4 21:40:43 2022 mips GNU/Linux <br>
+
+This leads me to believe that the carrier board is running the MIPS install, and the AHM27292U module is running the ARM7L install. It may be obvious to others, but this is the first time I've seen this type of device before.
