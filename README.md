@@ -23,4 +23,4 @@ The .254 interfaces shows:<br>
 > root@OpenWrt:~# uname -ar <br>
 > Linux OpenWrt 5.10.127 #0 Mon Jul 4 21:40:43 2022 mips GNU/Linux <br>
 
-This leads me to believe that the carrier board is running the MIPS install, and the AHM27292U module is running the ARM7L install. It may be obvious to others, but this is the first time I've seen this type of device before.
+This leads me to believe that the base board (Tube E4G) is running the MIPS install, and the AHM27292U module is running the ARM7L install. It may be obvious to others, but this is the first time I've seen this type of device before.
