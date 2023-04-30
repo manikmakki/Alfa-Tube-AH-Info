@@ -25,3 +25,7 @@ The .254 interfaces shows:<br>
 > Linux OpenWrt 5.10.127 #0 Mon Jul 4 21:40:43 2022 mips GNU/Linux <br>
 
 This leads me to believe that the base board (Tube E4G) is running the MIPS install, and the AHM27292U module is running the ARM7L install. It may be obvious to others, but this is the first time I've seen this type of device before.
+
+# Postmortem
+I no longer have these devices, I opted for the RPi hat instead since it can expose the network interface to a host OS (Raspbian).<br>
+Ultimately, I was unable to reset the NRC7292 SoC after soft bricking it by installing OpenWRT packages that possible altered how it exposed its own network interface. I was unable to open a serial console to the device over PCIe/M.2 unforunately. If these get mainline support in OpenWRT and/or Linux kernel, they may be worth looking into again.
